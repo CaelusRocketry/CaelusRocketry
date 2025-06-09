@@ -1,0 +1,22 @@
+# Project dependencies
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+.cache
+node_modules
+yarn-error.log
+
+# Build directory
+public/
+dist/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# Deployment-specific configs
+now.json
+
+# Code editors and IDE files
+.vscode/
+.idea/

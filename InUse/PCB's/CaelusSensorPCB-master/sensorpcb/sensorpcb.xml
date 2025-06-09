@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\quinc\Documents\Caelus\CaelusSensorPCB\sensorpcb\sensorpcb.kicad_sch</source>
+    <date>1/30/2024 8:02:42 PM</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sensorpcb.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PT-asm/" tstamps="/41809abc-6d7a-4c92-abde-c032d6e957eb/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pt-subasm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/PT-asm1/" tstamps="/b9895349-50b8-4f5a-9038-e8a8030ad764/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pt-subasm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/PT-asm2/" tstamps="/851bef22-e22d-4b87-8c4b-c7ab4e8f6f86/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pt-subasm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/PT-asm3/" tstamps="/f90f1b41-a2a1-4893-9d20-259bcd5e602e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pt-subasm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/PT-asm4/" tstamps="/e15e0576-f0b7-43a1-9616-23f68991e336/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pt-subasm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/PT-asm5/" tstamps="/3861aa3e-c725-4b31-adb7-37891f22ccdf/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pt-subasm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>546148dc-8a5c-4178-ace4-1d6889891417</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>CaelusPCB-rescue_XT60-M-CaelusPCB</value>
+      <footprint>Launchbox:AMASS_XT60-M</footprint>
+      <fields>
+        <field name="MANUFACTURER">AMASS</field>
+        <field name="PARTREV">1.2</field>
+        <field name="STANDARD">IPC-7251</field>
+      </fields>
+      <libsource lib="CaelusPCB-cache" part="CaelusPCB-rescue_XT60-M-CaelusPCB" description=""/>
+      <property name="MANUFACTURER" value="AMASS"/>
+      <property name="PARTREV" value="1.2"/>
+      <property name="STANDARD" value="IPC-7251"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d32d477-72a6-43b3-94e5-120ae3b3132e</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>440055-5</value>
+      <footprint>Launchbox:TE_1735446-5</footprint>
+      <libsource lib="CaelusPCB-rescue" part="440055-5-CaelusPCB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f569cd1-f337-40db-a4cd-a811063b738e</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>440055-5</value>
+      <footprint>Launchbox:TE_1735446-5</footprint>
+      <libsource lib="CaelusPCB-rescue" part="440055-5-CaelusPCB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>327cb9cd-96ee-4f18-8a63-3ca956dd9fe0</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>440055-5</value>
+      <footprint>Launchbox:TE_1735446-5</footprint>
+      <libsource lib="CaelusPCB-rescue" part="440055-5-CaelusPCB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4adc1ed-e801-416b-aeb1-f47e36387a47</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C11255</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C11255"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2362ab0b-f0e6-45cd-ae55-35e0b04223a0</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LoadCellAmp</value>
+      <footprint>Launchbox:LoadCellAmp</footprint>
+      <libsource lib="CaelusPCB-rescue" part="LoadCellAmp-Launchbox_Symbols-CaelusPCB-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>858473d0-5efa-4fca-936f-ebe06b16d9de</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LoadCellAmp</value>
+      <footprint>Launchbox:LoadCellAmp</footprint>
+      <libsource lib="CaelusPCB-rescue" part="LoadCellAmp-Launchbox_Symbols-CaelusPCB-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9a056a6-b483-4ec9-8a12-b88e8673fe90</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LoadCellAmp</value>
+      <footprint>Launchbox:LoadCellAmp</footprint>
+      <libsource lib="CaelusPCB-rescue" part="LoadCellAmp-Launchbox_Symbols-CaelusPCB-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4be13897-4c74-4b13-9abf-889f6b82aef9</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>XBee_Breakout</value>
+      <footprint>Launchbox:Xbee_Breakout</footprint>
+      <libsource lib="CaelusPCB-rescue" part="XBee_Breakout-CaelusPCB-rescue-CaelusPCB-rescue-CaelusPCB-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92035a88-6c95-4a61-bd8a-cb8dd9e5018a</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>MAX31856</value>
+      <footprint>Launchbox:MAX31856</footprint>
+      <libsource lib="CaelusPCB-rescue" part="MAX31856-Launchbox-CaelusPCB-rescue-CaelusPCB-rescue-CaelusPCB-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e3e06ad-324a-44ec-b563-ed88c65ea380</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C458977</field>
+      </fields>
+      <libsource lib="CaelusPCB-rescue" part="L7805-Regulator_Linear-CaelusPCB-rescue-CaelusPCB-rescue-CaelusPCB-rescue" description=""/>
+      <property name="LCSC" value="C458977"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>609c70f4-1479-4ca4-a93e-8230d97706fb</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>MAX31856</value>
+      <footprint>Launchbox:MAX31856</footprint>
+      <libsource lib="CaelusPCB-rescue" part="MAX31856-Launchbox-CaelusPCB-rescue-CaelusPCB-rescue-CaelusPCB-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>194fc133-31de-4ddb-b8d5-3719de51bfcc</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>ESP32-DEVKIT-V1_1</value>
+      <footprint>MODULE_ESP32_DEVKIT_V1</footprint>
+      <fields>
+        <field name="MANUFACTURER">DOIT</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">6.8 mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP32-DEVKIT-V1" part="ESP32-DEVKIT-V1_1" description=""/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="6.8 mm"/>
+      <property name="MANUFACTURER" value="DOIT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe2ac3da-6e76-4059-8c9f-c7d7e246d73b</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>SerialScrewTerminals</value>
+      <footprint>Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical</footprint>
+      <libsource lib="Launchbox" part="SerialScrewTerminals" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensorpcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7a2b74e-ca06-448d-9f59-a76fe5b37b85</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R_US</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C70775</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C70775"/>
+      <property name="Sheetname" value="PT-asm"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm/" tstamps="/41809abc-6d7a-4c92-abde-c032d6e957eb/"/>
+      <tstamps>c7d0284b-26f3-46a0-a20a-63616420e27a</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>Male_Tab_Connector</value>
+      <footprint>Launchbox:Disconnect_Connector</footprint>
+      <fields>
+        <field name="LCSC">C575074</field>
+      </fields>
+      <libsource lib="Launchbox" part="Male_Tab_Connector" description=""/>
+      <property name="LCSC" value="C575074"/>
+      <property name="Sheetname" value="PT-asm"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm/" tstamps="/41809abc-6d7a-4c92-abde-c032d6e957eb/"/>
+      <tstamps>f7d591cc-3330-401b-9ca8-38a6eb133b2d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>Female_Tab_Connector</value>
+      <footprint>Launchbox:Disconnect_Connector</footprint>
+      <fields>
+        <field name="LCSC">C2961150</field>
+      </fields>
+      <libsource lib="Launchbox" part="Female_Tab_Connector" description=""/>
+      <property name="LCSC" value="C2961150"/>
+      <property name="Sheetname" value="PT-asm"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm/" tstamps="/41809abc-6d7a-4c92-abde-c032d6e957eb/"/>
+      <tstamps>ee736826-134a-4faa-b66e-c38a59327735</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R_US</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C70775</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C70775"/>
+      <property name="Sheetname" value="PT-asm1"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm1/" tstamps="/b9895349-50b8-4f5a-9038-e8a8030ad764/"/>
+      <tstamps>c7d0284b-26f3-46a0-a20a-63616420e27a</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>Male_Tab_Connector</value>
+      <footprint>Launchbox:Disconnect_Connector</footprint>
+      <fields>
+        <field name="LCSC">C575074</field>
+      </fields>
+      <libsource lib="Launchbox" part="Male_Tab_Connector" description=""/>
+      <property name="LCSC" value="C575074"/>
+      <property name="Sheetname" value="PT-asm1"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm1/" tstamps="/b9895349-50b8-4f5a-9038-e8a8030ad764/"/>
+      <tstamps>f7d591cc-3330-401b-9ca8-38a6eb133b2d</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>Female_Tab_Connector</value>
+      <footprint>Launchbox:Disconnect_Connector</footprint>
+      <fields>
+        <field name="LCSC">C2961150</field>
+      </fields>
+      <libsource lib="Launchbox" part="Female_Tab_Connector" description=""/>
+      <property name="LCSC" value="C2961150"/>
+      <property name="Sheetname" value="PT-asm1"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm1/" tstamps="/b9895349-50b8-4f5a-9038-e8a8030ad764/"/>
+      <tstamps>ee736826-134a-4faa-b66e-c38a59327735</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R_US</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C70775</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C70775"/>
+      <property name="Sheetname" value="PT-asm2"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm2/" tstamps="/851bef22-e22d-4b87-8c4b-c7ab4e8f6f86/"/>
+      <tstamps>c7d0284b-26f3-46a0-a20a-63616420e27a</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>Male_Tab_Connector</value>
+      <footprint>Launchbox:Disconnect_Connector</footprint>
+      <fields>
+        <field name="LCSC">C575074</field>
+      </fields>
+      <libsource lib="Launchbox" part="Male_Tab_Connector" description=""/>
+      <property name="LCSC" value="C575074"/>
+      <property name="Sheetname" value="PT-asm2"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm2/" tstamps="/851bef22-e22d-4b87-8c4b-c7ab4e8f6f86/"/>
+      <tstamps>f7d591cc-3330-401b-9ca8-38a6eb133b2d</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>Female_Tab_Connector</value>
+      <footprint>Launchbox:Disconnect_Connector</footprint>
+      <fields>
+        <field name="LCSC">C2961150</field>
+      </fields>
+      <libsource lib="Launchbox" part="Female_Tab_Connector" description=""/>
+      <property name="LCSC" value="C2961150"/>
+      <property name="Sheetname" value="PT-asm2"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm2/" tstamps="/851bef22-e22d-4b87-8c4b-c7ab4e8f6f86/"/>
+      <tstamps>ee736826-134a-4faa-b66e-c38a59327735</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R_US</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C70775</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C70775"/>
+      <property name="Sheetname" value="PT-asm3"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm3/" tstamps="/f90f1b41-a2a1-4893-9d20-259bcd5e602e/"/>
+      <tstamps>c7d0284b-26f3-46a0-a20a-63616420e27a</tstamps>
+    </comp>
+    <comp ref="U16">
+      <value>Male_Tab_Connector</value>
+      <footprint>Launchbox:Disconnect_Connector</footprint>
+      <fields>
+        <field name="LCSC">C575074</field>
+      </fields>
+      <libsource lib="Launchbox" part="Male_Tab_Connector" description=""/>
+      <property name="LCSC" value="C575074"/>
+      <property name="Sheetname" value="PT-asm3"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm3/" tstamps="/f90f1b41-a2a1-4893-9d20-259bcd5e602e/"/>
+      <tstamps>f7d591cc-3330-401b-9ca8-38a6eb133b2d</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>Female_Tab_Connector</value>
+      <footprint>Launchbox:Disconnect_Connector</footprint>
+      <fields>
+        <field name="LCSC">C2961150</field>
+      </fields>
+      <libsource lib="Launchbox" part="Female_Tab_Connector" description=""/>
+      <property name="LCSC" value="C2961150"/>
+      <property name="Sheetname" value="PT-asm3"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm3/" tstamps="/f90f1b41-a2a1-4893-9d20-259bcd5e602e/"/>
+      <tstamps>ee736826-134a-4faa-b66e-c38a59327735</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>R_US</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C70775</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C70775"/>
+      <property name="Sheetname" value="PT-asm4"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm4/" tstamps="/e15e0576-f0b7-43a1-9616-23f68991e336/"/>
+      <tstamps>c7d0284b-26f3-46a0-a20a-63616420e27a</tstamps>
+    </comp>
+    <comp ref="U18">
+      <value>Male_Tab_Connector</value>
+      <footprint>Launchbox:Disconnect_Connector</footprint>
+      <fields>
+        <field name="LCSC">C575074</field>
+      </fields>
+      <libsource lib="Launchbox" part="Male_Tab_Connector" description=""/>
+      <property name="LCSC" value="C575074"/>
+      <property name="Sheetname" value="PT-asm4"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm4/" tstamps="/e15e0576-f0b7-43a1-9616-23f68991e336/"/>
+      <tstamps>f7d591cc-3330-401b-9ca8-38a6eb133b2d</tstamps>
+    </comp>
+    <comp ref="U19">
+      <value>Female_Tab_Connector</value>
+      <footprint>Launchbox:Disconnect_Connector</footprint>
+      <fields>
+        <field name="LCSC">C2961150</field>
+      </fields>
+      <libsource lib="Launchbox" part="Female_Tab_Connector" description=""/>
+      <property name="LCSC" value="C2961150"/>
+      <property name="Sheetname" value="PT-asm4"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm4/" tstamps="/e15e0576-f0b7-43a1-9616-23f68991e336/"/>
+      <tstamps>ee736826-134a-4faa-b66e-c38a59327735</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>R_US</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C70775</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C70775"/>
+      <property name="Sheetname" value="PT-asm5"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm5/" tstamps="/3861aa3e-c725-4b31-adb7-37891f22ccdf/"/>
+      <tstamps>c7d0284b-26f3-46a0-a20a-63616420e27a</tstamps>
+    </comp>
+    <comp ref="U20">
+      <value>Male_Tab_Connector</value>
+      <footprint>Launchbox:Disconnect_Connector</footprint>
+      <fields>
+        <field name="LCSC">C575074</field>
+      </fields>
+      <libsource lib="Launchbox" part="Male_Tab_Connector" description=""/>
+      <property name="LCSC" value="C575074"/>
+      <property name="Sheetname" value="PT-asm5"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm5/" tstamps="/3861aa3e-c725-4b31-adb7-37891f22ccdf/"/>
+      <tstamps>f7d591cc-3330-401b-9ca8-38a6eb133b2d</tstamps>
+    </comp>
+    <comp ref="U21">
+      <value>Female_Tab_Connector</value>
+      <footprint>Launchbox:Disconnect_Connector</footprint>
+      <fields>
+        <field name="LCSC">C2961150</field>
+      </fields>
+      <libsource lib="Launchbox" part="Female_Tab_Connector" description=""/>
+      <property name="LCSC" value="C2961150"/>
+      <property name="Sheetname" value="PT-asm5"/>
+      <property name="Sheetfile" value="pt-subasm.kicad_sch"/>
+      <property name="Field" value=""/>
+      <sheetpath names="/PT-asm5/" tstamps="/3861aa3e-c725-4b31-adb7-37891f22ccdf/"/>
+      <tstamps>ee736826-134a-4faa-b66e-c38a59327735</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CaelusPCB-cache" part="CaelusPCB-rescue_XT60-M-CaelusPCB">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CaelusPCB-rescue_XT60-M-CaelusPCB</field>
+        <field name="Footprint">AMASS_XT60-M</field>
+        <field name="MANUFACTURER">AMASS</field>
+        <field name="PARTREV">1.2</field>
+        <field name="STANDARD">IPC-7251</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CaelusPCB-rescue" part="440055-5-CaelusPCB">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">440055-5-CaelusPCB</field>
+        <field name="Footprint">5_Header</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CaelusPCB-rescue" part="L7805-Regulator_Linear-CaelusPCB-rescue-CaelusPCB-rescue-CaelusPCB-rescue">
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805-Regulator_Linear-CaelusPCB-rescue-CaelusPCB-rescue-CaelusPCB-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="CaelusPCB-rescue" part="LoadCellAmp-Launchbox_Symbols-CaelusPCB-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LoadCellAmp-Launchbox_Symbols-CaelusPCB-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RED" type="input"/>
+        <pin num="2" name="BLK" type="input"/>
+        <pin num="3" name="WHT" type="input"/>
+        <pin num="4" name="GRN" type="input"/>
+        <pin num="5" name="YLW" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="CLK" type="input"/>
+        <pin num="8" name="DAT" type="input"/>
+        <pin num="9" name="VCC" type="input"/>
+        <pin num="10" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CaelusPCB-rescue" part="MAX31856-Launchbox-CaelusPCB-rescue-CaelusPCB-rescue-CaelusPCB-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX31856-Launchbox-CaelusPCB-rescue-CaelusPCB-rescue-CaelusPCB-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="3VO" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="SDO" type="input"/>
+        <pin num="6" name="SDI" type="input"/>
+        <pin num="7" name="CS" type="input"/>
+        <pin num="8" name="FLT" type="input"/>
+        <pin num="9" name="DRDY" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CaelusPCB-rescue" part="XBee_Breakout-CaelusPCB-rescue-CaelusPCB-rescue-CaelusPCB-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XBee_Breakout-CaelusPCB-rescue-CaelusPCB-rescue-CaelusPCB-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="DOUT" type="input"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="DO8" type="input"/>
+        <pin num="5" name="RST" type="input"/>
+        <pin num="6" name="PWM0" type="input"/>
+        <pin num="7" name="PWM1" type="input"/>
+        <pin num="8" name="RSV" type="input"/>
+        <pin num="9" name="DTR" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="AD0" type="input"/>
+        <pin num="12" name="AD1" type="input"/>
+        <pin num="13" name="AD2" type="input"/>
+        <pin num="14" name="AD3" type="input"/>
+        <pin num="15" name="RTS" type="input"/>
+        <pin num="16" name="AD5" type="input"/>
+        <pin num="17" name="VREF" type="input"/>
+        <pin num="18" name="ON" type="input"/>
+        <pin num="19" name="CTS" type="input"/>
+        <pin num="20" name="AD4" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-DEVKIT-V1" part="ESP32-DEVKIT-V1_1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-DEVKIT-V1_1</field>
+        <field name="Footprint">MODULE_ESP32_DEVKIT_V1</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">6.8 mm</field>
+        <field name="MANUFACTURER">DOIT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="output"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="D15" type="bidirectional"/>
+        <pin num="4" name="D2" type="bidirectional"/>
+        <pin num="5" name="D4" type="bidirectional"/>
+        <pin num="6" name="RX2" type="input"/>
+        <pin num="7" name="TX2" type="output"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D18" type="bidirectional"/>
+        <pin num="10" name="D19" type="bidirectional"/>
+        <pin num="11" name="D21" type="bidirectional"/>
+        <pin num="12" name="RX0" type="input"/>
+        <pin num="13" name="TX0" type="output"/>
+        <pin num="14" name="D22" type="bidirectional"/>
+        <pin num="15" name="D23" type="bidirectional"/>
+        <pin num="16" name="VIN" type="output"/>
+        <pin num="17" name="GND" type="input"/>
+        <pin num="18" name="D13" type="bidirectional"/>
+        <pin num="19" name="D12" type="bidirectional"/>
+        <pin num="20" name="D14" type="bidirectional"/>
+        <pin num="21" name="D27" type="bidirectional"/>
+        <pin num="22" name="D26" type="bidirectional"/>
+        <pin num="23" name="D25" type="bidirectional"/>
+        <pin num="24" name="D33" type="bidirectional"/>
+        <pin num="25" name="D32" type="bidirectional"/>
+        <pin num="26" name="D35" type="bidirectional"/>
+        <pin num="27" name="D34" type="bidirectional"/>
+        <pin num="28" name="VN" type="bidirectional"/>
+        <pin num="29" name="VP" type="bidirectional"/>
+        <pin num="30" name="EN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Launchbox" part="Female_Tab_Connector">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Female_Tab_Connector</field>
+      </fields>
+      <pins>
+        <pin num="1_1" name="1_1" type="passive"/>
+        <pin num="1_2" name="1_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Launchbox" part="Male_Tab_Connector">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Male_Tab_Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Launchbox" part="SerialScrewTerminals">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SerialScrewTerminals</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="ESP32-DEVKIT-V1">
+      <uri>C:/Users/quinc/Documents/Caelus/me/ESP32-DEVKIT-V1/ESP32-DEVKIT-V1.kicad_sym</uri>
+    </library>
+    <library logical="Launchbox">
+      <uri>C:\Users\quinc\Documents\Caelus\CaelusSensorPCB\sensorpcb/Libraries/Launchbox.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U10" pin="16" pinfunction="VIN" pintype="output"/>
+      <node ref="U6" pin="1" pinfunction="VCC" pintype="input"/>
+      <node ref="U7" pin="1" pinfunction="VIN" pintype="input"/>
+      <node ref="U8" pin="3" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U9" pin="1" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="U1" pin="10" pinfunction="VDD" pintype="input"/>
+      <node ref="U1" pin="9" pinfunction="VCC" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="VDD" pintype="input"/>
+      <node ref="U2" pin="9" pinfunction="VCC" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="VDD" pintype="input"/>
+      <node ref="U3" pin="9" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="J9" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="U13" pin="1_1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U13" pin="1_2" pinfunction="1_2" pintype="passive"/>
+      <node ref="U15" pin="1_1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U15" pin="1_2" pinfunction="1_2" pintype="passive"/>
+      <node ref="U17" pin="1_1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U17" pin="1_2" pinfunction="1_2" pintype="passive"/>
+      <node ref="U19" pin="1_1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U19" pin="1_2" pinfunction="1_2" pintype="passive"/>
+      <node ref="U21" pin="1_1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U21" pin="1_2" pinfunction="1_2" pintype="passive"/>
+      <node ref="U5" pin="1_1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U5" pin="1_2" pinfunction="1_2" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="4" name="CLK">
+      <node ref="U1" pin="7" pinfunction="CLK" pintype="input"/>
+      <node ref="U10" pin="23" pinfunction="D25" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pinfunction="CLK" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="5" name="CS1">
+      <node ref="U10" pin="10" pinfunction="D19" pintype="bidirectional"/>
+      <node ref="U7" pin="7" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="6" name="CS2">
+      <node ref="U10" pin="11" pinfunction="D21" pintype="bidirectional"/>
+      <node ref="U9" pin="7" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="7" name="DAT">
+      <node ref="U1" pin="8" pinfunction="DAT" pintype="input"/>
+      <node ref="U10" pin="8" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="DAT2">
+      <node ref="U10" pin="9" pinfunction="D18" pintype="bidirectional"/>
+      <node ref="U2" pin="8" pinfunction="DAT" pintype="input"/>
+    </net>
+    <net code="9" name="DAT3">
+      <node ref="U10" pin="3" pinfunction="D15" pintype="bidirectional"/>
+      <node ref="U3" pin="8" pinfunction="DAT" pintype="input"/>
+    </net>
+    <net code="10" name="DIN">
+      <node ref="U10" pin="21" pinfunction="D27" pintype="bidirectional"/>
+      <node ref="U6" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="11" name="DOUT">
+      <node ref="U10" pin="22" pinfunction="D26" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="DOUT" pintype="input"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="J9" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GND" pintype="input"/>
+      <node ref="U10" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="U11" pin="1" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="GND" pintype="input"/>
+      <node ref="U6" pin="10" pinfunction="GND" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U8" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J10-Pad1)">
+      <node ref="J10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="RED" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(J10-Pad2)">
+      <node ref="J10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="BLK" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(J10-Pad3)">
+      <node ref="J10" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="WHT" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(J10-Pad4)">
+      <node ref="J10" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GRN" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(J10-Pad5)">
+      <node ref="J10" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="YLW" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(J11-Pad1)">
+      <node ref="J11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="RED" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(J11-Pad2)">
+      <node ref="J11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="BLK" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(J11-Pad3)">
+      <node ref="J11" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="WHT" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(J11-Pad4)">
+      <node ref="J11" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GRN" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(J11-Pad5)">
+      <node ref="J11" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="YLW" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(J12-Pad1)">
+      <node ref="J12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="RED" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(J12-Pad2)">
+      <node ref="J12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="BLK" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(J12-Pad3)">
+      <node ref="J12" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="WHT" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(J12-Pad4)">
+      <node ref="J12" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GRN" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(J12-Pad5)">
+      <node ref="J12" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="YLW" pintype="input"/>
+    </net>
+    <net code="29" name="PT2">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U10" pin="19" pinfunction="D12" pintype="bidirectional"/>
+      <node ref="U18" pin="1" pintype="passive"/>
+      <node ref="U18" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="PT4">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U10" pin="20" pinfunction="D14" pintype="bidirectional"/>
+      <node ref="U20" pin="1" pintype="passive"/>
+      <node ref="U20" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="PT32">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U10" pin="25" pinfunction="D32" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="PT33">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U10" pin="24" pinfunction="D33" pintype="bidirectional"/>
+      <node ref="U12" pin="1" pintype="passive"/>
+      <node ref="U12" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="PT34">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U10" pin="27" pinfunction="D34" pintype="bidirectional"/>
+      <node ref="U14" pin="1" pintype="passive"/>
+      <node ref="U14" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="PT35">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U10" pin="26" pinfunction="D35" pintype="bidirectional"/>
+      <node ref="U16" pin="1" pintype="passive"/>
+      <node ref="U16" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="RX0">
+      <node ref="U10" pin="12" pinfunction="RX0" pintype="input"/>
+      <node ref="U11" pin="3" pintype="input"/>
+    </net>
+    <net code="36" name="SCK">
+      <node ref="U10" pin="14" pinfunction="D22" pintype="bidirectional"/>
+      <node ref="U7" pin="4" pinfunction="SCK" pintype="input"/>
+      <node ref="U9" pin="4" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="37" name="SDI">
+      <node ref="U10" pin="15" pinfunction="D23" pintype="bidirectional"/>
+      <node ref="U7" pin="6" pinfunction="SDI" pintype="input"/>
+      <node ref="U9" pin="6" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="38" name="SDO">
+      <node ref="U7" pin="5" pinfunction="SDO" pintype="input"/>
+      <node ref="U9" pin="5" pinfunction="SDO" pintype="input"/>
+    </net>
+    <net code="39" name="TX0">
+      <node ref="U10" pin="13" pinfunction="TX0" pintype="output"/>
+      <node ref="U11" pin="2" pintype="input"/>
+    </net>
+    <net code="40" name="unconnected-(U6-Pad4)">
+      <node ref="U6" pin="4" pinfunction="DO8" pintype="input"/>
+    </net>
+    <net code="41" name="unconnected-(U6-Pad5)">
+      <node ref="U6" pin="5" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="42" name="unconnected-(U6-Pad6)">
+      <node ref="U6" pin="6" pinfunction="PWM0" pintype="input"/>
+    </net>
+    <net code="43" name="unconnected-(U6-Pad7)">
+      <node ref="U6" pin="7" pinfunction="PWM1" pintype="input"/>
+    </net>
+    <net code="44" name="unconnected-(U6-Pad8)">
+      <node ref="U6" pin="8" pinfunction="RSV" pintype="input"/>
+    </net>
+    <net code="45" name="unconnected-(U6-Pad9)">
+      <node ref="U6" pin="9" pinfunction="DTR" pintype="input"/>
+    </net>
+    <net code="46" name="unconnected-(U6-Pad11)">
+      <node ref="U6" pin="11" pinfunction="AD0" pintype="input"/>
+    </net>
+    <net code="47" name="unconnected-(U6-Pad12)">
+      <node ref="U6" pin="12" pinfunction="AD1" pintype="input"/>
+    </net>
+    <net code="48" name="unconnected-(U6-Pad13)">
+      <node ref="U6" pin="13" pinfunction="AD2" pintype="input"/>
+    </net>
+    <net code="49" name="unconnected-(U6-Pad14)">
+      <node ref="U6" pin="14" pinfunction="AD3" pintype="input"/>
+    </net>
+    <net code="50" name="unconnected-(U6-Pad15)">
+      <node ref="U6" pin="15" pinfunction="RTS" pintype="input"/>
+    </net>
+    <net code="51" name="unconnected-(U6-Pad16)">
+      <node ref="U6" pin="16" pinfunction="AD5" pintype="input"/>
+    </net>
+    <net code="52" name="unconnected-(U6-Pad17)">
+      <node ref="U6" pin="17" pinfunction="VREF" pintype="input"/>
+    </net>
+    <net code="53" name="unconnected-(U6-Pad18)">
+      <node ref="U6" pin="18" pinfunction="ON" pintype="input"/>
+    </net>
+    <net code="54" name="unconnected-(U6-Pad19)">
+      <node ref="U6" pin="19" pinfunction="CTS" pintype="input"/>
+    </net>
+    <net code="55" name="unconnected-(U6-Pad20)">
+      <node ref="U6" pin="20" pinfunction="AD4" pintype="input"/>
+    </net>
+    <net code="56" name="unconnected-(U7-Pad2)">
+      <node ref="U7" pin="2" pinfunction="3VO" pintype="input"/>
+    </net>
+    <net code="57" name="unconnected-(U7-Pad8)">
+      <node ref="U7" pin="8" pinfunction="FLT" pintype="input"/>
+    </net>
+    <net code="58" name="unconnected-(U7-Pad9)">
+      <node ref="U7" pin="9" pinfunction="DRDY" pintype="input"/>
+    </net>
+    <net code="59" name="unconnected-(U9-Pad2)">
+      <node ref="U9" pin="2" pinfunction="3VO" pintype="input"/>
+    </net>
+    <net code="60" name="unconnected-(U9-Pad8)">
+      <node ref="U9" pin="8" pinfunction="FLT" pintype="input"/>
+    </net>
+    <net code="61" name="unconnected-(U9-Pad9)">
+      <node ref="U9" pin="9" pinfunction="DRDY" pintype="input"/>
+    </net>
+    <net code="62" name="unconnected-(U10-Pad1)">
+      <node ref="U10" pin="1" pinfunction="3V3" pintype="output"/>
+    </net>
+    <net code="63" name="unconnected-(U10-Pad4)">
+      <node ref="U10" pin="4" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="unconnected-(U10-Pad5)">
+      <node ref="U10" pin="5" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="unconnected-(U10-Pad6)">
+      <node ref="U10" pin="6" pinfunction="RX2" pintype="input"/>
+    </net>
+    <net code="66" name="unconnected-(U10-Pad7)">
+      <node ref="U10" pin="7" pinfunction="TX2" pintype="output"/>
+    </net>
+    <net code="67" name="unconnected-(U10-Pad17)">
+      <node ref="U10" pin="17" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="68" name="unconnected-(U10-Pad18)">
+      <node ref="U10" pin="18" pinfunction="D13" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="unconnected-(U10-Pad28)">
+      <node ref="U10" pin="28" pinfunction="VN" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="unconnected-(U10-Pad29)">
+      <node ref="U10" pin="29" pinfunction="VP" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="unconnected-(U10-Pad30)">
+      <node ref="U10" pin="30" pinfunction="EN" pintype="input"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    Tests
+{% endblock %}
+
+{% block css %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{% static 'css/tests.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div id="test-list">
+        {% if test_list %}
+            {% for test in test_list %}
+                <div class="test-item" id="test-{{ test.pk }}">
+                    <div class="test-metadata">
+                        <div class="test-title">
+                            <div class="test-tx">
+                                <h3>#{{ test.pk }}</h3> <span>Test_{{ test.created_at|date:"d_M_Y" }}</span>
+                            </div>
+                            <div class="test-tags">
+                                {% if test.completed %}
+                                    <span class="test-status-completed test-tag">Completed</span>
+                                {% else %}
+                                    <span class="test-status-in-progress test-tag">In Progress</span>
+                                {% endif %}
+                                {% if test.environment == "xbee" %}
+                                    <span class="test-env-xbee test-tag">{{ test.get_environment_display }}</span>
+                                {% elif test.environment == "sim" %}
+                                    <span class="test-env-sim test-tag">{{ test.get_environment_display }}</span>
+                                {% else %}
+                                    <span class="test-env-bt test-tag">{{ test.get_environment_display }}</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="test-attribs">
+                            <span>Ran on {{ test.created_at }}</span>
+                            <span>{{ test.packets.count }} Packets</span>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <a href="/export_test/{{ test.pk }}" class="export-btn action-btn" download {% if not test.completed %}disabled{% endif %}>
+                            Export
+                        </a>
+                        <button class="delete-btn action-btn" {% if not test.completed %}disabled{% endif %}>
+                            Delete
+                        </button>
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <span id="no-items">No tests found.</span>
+        {% endif %}
+    </div>
+{% endblock %}
+
+{% block js %}
+    {{ block.super }}
+    <script src="{% static 'js/tests.js' %}"></script>
+{% endblock %}

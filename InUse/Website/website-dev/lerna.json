@@ -1,0 +1,4 @@
+{
+  "packages": ["packages/web", "packages/cms"],
+  "version": "1.0.0"
+}

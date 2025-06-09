@@ -1,0 +1,148 @@
+#content {
+    display: flex;
+    height: calc(100% - 50px);
+    width: 100%;
+    flex-direction: column;
+}
+
+#test-list {
+    width: 100%;
+    flex: 1;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2.5em;
+}
+
+.test-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1em 2.5em;
+    background-color: #ffffff;
+    border-bottom: 1px solid #757575;
+}
+
+.test-metadata {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    margin-right: 2em;
+}
+
+.test-title {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.test-title h3 {
+    display: inline;
+}
+
+.test-tag {
+    font-size: 12px;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 600;
+    border-radius: 999px;
+    padding: .25em .75em;
+    cursor: pointer;
+}
+
+.test-status-in-progress {
+    border: 1px solid #ebe834; 
+    background-color: #fff789a8;
+    color: #7e7715;
+}
+
+.test-status-completed {
+    border: 1px solid #31ee40;
+    background-color: #89fd8f9a;
+    color: #217716;
+}
+
+.test-env-xbee {
+    border: 1px solid #eb3a3a;
+    background-color: #fd7e7e9a;
+    color: #751616;
+}
+
+.test-env-sim {
+    border: 1px solid #3ac8eb;
+    background-color: #7ef4fd9a;
+    color: #166f75;
+}
+
+.test-env-bt {
+    border: 1px solid #4d55df;
+    background-color: #545ce77c;
+    color: #0b0e41;
+}
+
+.test-attribs span {
+    display: block;
+    text-align: end;
+    font-size: .75em;
+    font-family: "Segoe UI", sans-serif;
+    color: #808080;
+}
+
+.actions {
+    font-size: 0;
+}
+
+.action-btn {
+    display: inline-block;
+    font-family: "Segoe UI", sans-serif;
+    font-size: .95rem;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    padding: .6em 1.2em;
+}
+
+.action-btn:not(:last-child) {
+    margin-right: .5rem;
+}
+
+.action-btn[disabled] {
+    cursor: not-allowed;
+}
+
+.action-btn:not([disabled]):hover {
+    transform: scale(1.04);
+}
+
+.delete-btn {
+    background-color: var(--red);
+}
+
+.delete-btn:not([disabled]):hover {
+    background-color: var(--red-dark);
+}
+
+.delete-btn:not([disabled]):active {
+    background-color: var(--red-darker);
+}
+
+.export-btn {
+    background-color: var(--green);
+}
+
+.export-btn:not([disabled]):hover {
+    background-color: var(--green-dark);
+}
+
+.export-btn:not([disabled]):active {
+    background-color: var(--green-darker);
+}
+
+#no-items {
+    text-align: center;
+    width: 100%;
+    font-family: "Segoe UI", sans-serif;
+    color: var(--gray-dark);
+}

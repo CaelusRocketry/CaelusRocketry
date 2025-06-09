@@ -1,0 +1,62 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+        {% endblock %}
+        - Caelus Ground Station
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f62b24">
+    <meta name="description" content="Caelus Rocketry Ground Station">
+    <link rel="icon" href="{% static 'img/favicon.ico' %}">
+    
+    {% block css %}
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    {% endblock %}
+</head>
+<body>
+    <div id="container">
+        {% include "nav.html" %}
+    
+        <main id="content">
+            {% block content %}
+            {% endblock %}
+        </main>
+    </div>
+    
+    <dialog id="dialog-box">
+        <div id="dialog-header">
+            <h3></h3>
+        </div>
+        <div id="dialog-body">
+            <span></span>
+        </div>
+        <div id="dialog-actions">
+            <button id="dialog-btn-yes" class="dialog-btn">
+                Confirm
+            </button>
+            <button id="dialog-btn-no" class="dialog-btn">
+                Cancel
+            </button>
+        </div>
+    </dialog>
+
+    {% block js %}
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"
+            integrity="sha256-WCzAhd2P6gRJF9Hv3oOOd+hFJi/QJbv+Azn4CGB8gfY=" 
+            crossorigin="anonymous">
+        </script>
+        <script src="{% static 'js/common.js' %}"></script>
+    {% endblock %}
+</body>
+</html>
