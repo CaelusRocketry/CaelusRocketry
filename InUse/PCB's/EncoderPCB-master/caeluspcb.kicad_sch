@@ -5,6 +5,392 @@
 	(uuid "c832c560-1f03-4511-a343-09d45200b709")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Capacitors:K104K10X7RF5UH5"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "K104K10X7RF5UH5"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "K104K10X7RF5UH5_VIS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/doc?45171"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "K104K10X7RF5UH5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "K104K10X7RF5UH5_VIS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "K104K10X7RF5UH5_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Capacitors:WCAP-ATUL_6.3X11"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.175 3.38 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "WCAP-ATUL_6.3X11"
+				(at 0.915 -5.075 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "WCAP-ATUL_6.3X11:WCAP-ATUL_6.3X11_DXL_"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "732-9215-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/860040573004/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Alum. Electrolytic Cap 100µF 35V 6.3mm Radial WCAP-ATUL; Lifetime 5000h +105°C | Wurth Electronics 860040573004"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Radial Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/860040573004/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "860040573004"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "WCAP-ATUL_6.3X11_0_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.6426 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.9279 0) (xy 2.5705 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at 2.54 -1.905 0)
+					(effects
+						(font
+							(size 1.4224 1.4224)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:RJ45"
 			(pin_names
 				(offset 1.016)
@@ -3909,7 +4295,7 @@
 	)
 	(text "Overriding"
 		(exclude_from_sim no)
-		(at 113.538 117.856 0)
+		(at 105.664 119.126 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3932,6 +4318,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d86d643-ddcf-46d5-848b-13a3920ee9f0")
+	)
+	(junction
+		(at 129.54 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15cd536e-c569-470c-87be-d73227e226fb")
 	)
 	(junction
 		(at 82.55 137.16)
@@ -4012,10 +4404,16 @@
 		(uuid "6175c329-ed4d-4ec9-9f61-28be2109a0c1")
 	)
 	(junction
-		(at 172.72 157.48)
+		(at 175.26 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69d733ad-a9f3-4b65-b5e3-2272e34ecc8e")
+	)
+	(junction
+		(at 129.54 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ae4d7f5-ab58-4502-838c-8ce604dd0907")
 	)
 	(junction
 		(at 66.04 171.45)
@@ -4088,6 +4486,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b39d3d82-58e8-45b7-be54-ac526195a8f8")
+	)
+	(junction
+		(at 129.54 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c725937e-1cc9-4e8f-b3c6-0e32d35390fd")
 	)
 	(junction
 		(at 158.75 71.12)
@@ -4215,7 +4619,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 156.21) (xy 172.72 157.48)
+			(xy 175.26 160.02) (xy 175.26 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4305,7 +4709,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 157.48) (xy 172.72 158.75)
+			(xy 175.26 161.29) (xy 175.26 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4425,6 +4829,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 124.46) (xy 129.54 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0a47f6-99d0-430e-ada3-302ac62bcfd8")
+	)
+	(wire
+		(pts
 			(xy 161.29 30.48) (xy 158.75 30.48)
 		)
 		(stroke
@@ -4532,6 +4946,16 @@
 			(type default)
 		)
 		(uuid "bad5e8ff-2ec3-4b42-809b-2dc5ec412ade")
+	)
+	(wire
+		(pts
+			(xy 129.54 111.76) (xy 129.54 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcdc0a77-6830-43b1-be69-9db3d8a98d9d")
 	)
 	(wire
 		(pts
@@ -4675,6 +5099,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 118.11) (xy 129.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15bce23-4dd6-435d-82fd-732c9fb3ce3f")
+	)
+	(wire
+		(pts
+			(xy 129.54 129.54) (xy 129.54 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f26ff7a1-e3f3-4ffb-b4e4-b93f5022dc2e")
+	)
+	(wire
+		(pts
 			(xy 146.05 71.12) (xy 146.05 81.28)
 		)
 		(stroke
@@ -4695,7 +5139,7 @@
 	)
 	(global_label "AUTO"
 		(shape input)
-		(at 157.48 171.45 0)
+		(at 160.02 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4705,7 +5149,7 @@
 		)
 		(uuid "0a05dc13-0741-4db5-9d22-c024a23cbf61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1824 171.45 0)
+			(at 167.7224 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +5513,7 @@
 	)
 	(global_label "N_O1"
 		(shape input)
-		(at 157.48 163.83 0)
+		(at 160.02 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5079,7 +5523,7 @@
 		)
 		(uuid "7c90dcb2-81ab-4d46-aa62-85cfcebebff6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.3033 163.83 0)
+			(at 167.8433 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +5733,7 @@
 	)
 	(global_label "N_O3"
 		(shape input)
-		(at 157.48 168.91 0)
+		(at 160.02 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5299,7 +5743,7 @@
 		)
 		(uuid "96fb8ab2-9d92-4ada-99b5-ee372522d9b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.3033 168.91 0)
+			(at 167.8433 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5975,7 @@
 	)
 	(global_label "N_O2"
 		(shape input)
-		(at 157.48 166.37 0)
+		(at 160.02 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5541,7 +5985,7 @@
 		)
 		(uuid "e323fa56-a31a-495b-a476-8c4f9c22eb45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.3033 166.37 0)
+			(at 167.8433 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,7 +6063,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 161.29 158.75 270)
+		(at 163.83 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5627,7 +6071,7 @@
 		(dnp no)
 		(uuid "01de292c-6568-496b-8c89-c7bae79e2e1b")
 		(property "Reference" "R38"
-			(at 172.7201 161.29 0)
+			(at 175.2601 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +6080,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 170.1801 161.29 0)
+			(at 172.7201 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,7 +6089,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 161.036 159.766 90)
+			(at 163.576 163.576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,7 +6098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 158.75 0)
+			(at 163.83 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +6107,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 161.29 158.75 0)
+			(at 163.83 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6692,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 168.91 158.75 180)
+		(at 171.45 162.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6256,7 +6700,7 @@
 		(dnp no)
 		(uuid "1ad3be3e-c497-4ba4-a428-8d3a8c2f8a53")
 		(property "Reference" "D2"
-			(at 165.862 160.528 0)
+			(at 168.402 164.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,7 +6708,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 167.894 164.084 0)
+			(at 170.434 167.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +6716,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 168.91 158.75 0)
+			(at 171.45 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +6725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 158.75 0)
+			(at 171.45 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +6734,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 168.91 158.75 0)
+			(at 171.45 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +6743,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 168.91 158.75 0)
+			(at 171.45 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +6836,7 @@
 	)
 	(symbol
 		(lib_id "MyLibrary:ESP32-DEVKIT-V1")
-		(at 142.24 158.75 0)
+		(at 144.78 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6401,7 +6845,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ba8156a-67ad-4236-ad98-d86d6f1be420")
 		(property "Reference" "U4"
-			(at 142.24 125.73 0)
+			(at 144.78 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6409,7 +6853,7 @@
 			)
 		)
 		(property "Value" "ESP32-DEVKIT-V1"
-			(at 142.24 128.27 0)
+			(at 144.78 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6417,7 +6861,7 @@
 			)
 		)
 		(property "Footprint" "Launchbox:MODULE_ESP32_DEVKIT_V1"
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6427,7 +6871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6436,7 +6880,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6445,7 +6889,7 @@
 			)
 		)
 		(property "MF" "Do it"
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6455,7 +6899,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "6.8 mm"
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +6909,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,7 +6919,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,7 +6929,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=eda"
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,7 +6939,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,7 +6949,7 @@
 			)
 		)
 		(property "PARTREV" "N/A"
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6515,7 +6959,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=snap"
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +6969,7 @@
 			)
 		)
 		(property "MP" "ESP32-DEVKIT-V1"
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +6979,7 @@
 			)
 		)
 		(property "Description_1" "Dual core, Wi-Fi: 2.4 GHz up to 150 Mbits/s,BLE (Bluetooth Low Energy) and legacy Bluetooth, 32 bits, Up to 240 MHz"
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +6989,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +6999,7 @@
 			)
 		)
 		(property "MANUFACTURER" "DOIT"
-			(at 142.24 158.75 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,7 +7109,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 168.91 156.21 180)
+		(at 171.45 160.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6673,7 +7117,7 @@
 		(dnp no)
 		(uuid "1e44e7bf-8c53-47af-b911-2ee59873204e")
 		(property "Reference" "D1"
-			(at 170.4975 148.59 0)
+			(at 173.0375 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,7 +7125,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 168.148 156.718 0)
+			(at 170.688 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,7 +7133,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 168.91 156.21 0)
+			(at 171.45 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +7142,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 156.21 0)
+			(at 171.45 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +7151,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 168.91 156.21 0)
+			(at 171.45 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,7 +7160,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 168.91 156.21 0)
+			(at 171.45 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +7357,7 @@
 	(symbol
 		(lib_name "GND_8")
 		(lib_id "power:GND")
-		(at 157.48 184.15 90)
+		(at 160.02 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6921,7 +7365,7 @@
 		(dnp no)
 		(uuid "2382f001-7f38-4ea9-bf4c-f8e706915c14")
 		(property "Reference" "#PWR07"
-			(at 163.83 184.15 0)
+			(at 166.37 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +7374,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.464 184.404 0)
+			(at 159.004 188.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,7 +7382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 184.15 0)
+			(at 160.02 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +7391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 184.15 0)
+			(at 160.02 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +7400,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 184.15 0)
+			(at 160.02 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +7422,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 157.48 90)
+		(at 175.26 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6987,7 +7431,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ec1fec4-9926-4cc6-9c58-05912ecfc7bb")
 		(property "Reference" "#PWR019"
-			(at 179.07 157.48 0)
+			(at 181.61 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +7440,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 157.4799 90)
+			(at 179.07 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7005,7 +7449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 157.48 0)
+			(at 175.26 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7014,7 +7458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 157.48 0)
+			(at 175.26 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7023,7 +7467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 157.48 0)
+			(at 175.26 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9917,6 +10361,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 121.92 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96603cbc-c92c-45a5-b835-d68a4294fcaf")
+		(property "Reference" "#PWR036"
+			(at 115.57 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5706436e-7cf0-4d5b-909f-380b09fe3120")
+		)
+		(instances
+			(project "caeluspcb"
+				(path "/c832c560-1f03-4511-a343-09d45200b709"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 109.22 134.62 0)
 		(unit 1)
@@ -10559,6 +11070,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitors:K104K10X7RF5UH5")
+		(at 129.54 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b73b971c-7575-41c3-9908-b8d98adc7b6e")
+		(property "Reference" "C1"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "0.1uf"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "K104K10X7RF5UH5_VIS"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?45171"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dc2d586-7b26-4ee4-b4a8-dff3be31ea49")
+		)
+		(pin "2"
+			(uuid "016699a0-30f8-439b-aa17-f1d0b26159f2")
+		)
+		(instances
+			(project ""
+				(path "/c832c560-1f03-4511-a343-09d45200b709"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 175.26 30.48 270)
 		(unit 1)
@@ -10629,7 +11210,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 127 133.35 0)
+		(at 129.54 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10638,7 +11219,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf1e37c0-fc9c-441c-9b25-eec1abb16a76")
 		(property "Reference" "#PWR026"
-			(at 127 137.16 0)
+			(at 129.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10647,7 +11228,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 127 128.27 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10655,7 +11236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 133.35 0)
+			(at 129.54 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10664,7 +11245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 133.35 0)
+			(at 129.54 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10673,7 +11254,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 127 133.35 0)
+			(at 129.54 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10896,7 +11477,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 161.29 156.21 270)
+		(at 163.83 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10904,7 +11485,7 @@
 		(dnp no)
 		(uuid "c1897d84-4a0c-4b6a-9bec-bf2d912e70ef")
 		(property "Reference" "R37"
-			(at 172.7201 158.75 0)
+			(at 175.2601 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10913,7 +11494,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 170.1801 158.75 0)
+			(at 172.7201 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10922,7 +11503,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 161.036 157.226 90)
+			(at 163.576 161.036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10931,7 +11512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 156.21 0)
+			(at 163.83 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10940,7 +11521,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 161.29 156.21 0)
+			(at 163.83 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11289,6 +11870,72 @@
 			(project "caeluspcb"
 				(path "/c832c560-1f03-4511-a343-09d45200b709"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c81d09fe-adfd-42fd-a9e9-4d6b80f2b6ab")
+		(property "Reference" "#PWR038"
+			(at 143.51 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.922 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "120c766f-7b5c-4abd-b854-e24b249570d8")
+		)
+		(instances
+			(project "caeluspcb"
+				(path "/c832c560-1f03-4511-a343-09d45200b709"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12388,6 +13035,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 137.16 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f183ead4-1ef0-4780-bc1a-6686e32f1dc0")
+		(property "Reference" "#PWR037"
+			(at 143.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "773f09c5-114e-4df0-aa36-59c7f60cecdb")
+		)
+		(instances
+			(project "caeluspcb"
+				(path "/c832c560-1f03-4511-a343-09d45200b709"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 90.17 167.64 180)
 		(unit 1)
@@ -12519,6 +13233,76 @@
 			(project "caeluspcb"
 				(path "/c832c560-1f03-4511-a343-09d45200b709"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:K104K10X7RF5UH5")
+		(at 121.92 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f579fdf2-50af-4d05-bafb-6c2ac6e74e5a")
+		(property "Reference" "C2"
+			(at 125.73 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "0.1uf"
+			(at 125.73 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "K104K10X7RF5UH5_VIS"
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?45171"
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1295e05c-ea77-4203-8106-581998b8bee0")
+		)
+		(pin "2"
+			(uuid "ad480a16-1f95-464d-af6f-349ebb7ceda2")
+		)
+		(instances
+			(project "caeluspcb"
+				(path "/c832c560-1f03-4511-a343-09d45200b709"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -12790,6 +13574,144 @@
 			(project "caeluspcb"
 				(path "/c832c560-1f03-4511-a343-09d45200b709"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:WCAP-ATUL_6.3X11")
+		(at 134.62 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbffe1a8-ea1b-4ee3-bbc3-5cfb4988a686")
+		(property "Reference" "C3"
+			(at 133.096 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uf"
+			(at 134.62 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitors:WCAP-ATUL_6.3X11_DXL_"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "732-9215-1-ND"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/860040573004/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Alum. Electrolytic Cap 100µF 35V 6.3mm Radial WCAP-ATUL; Lifetime 5000h +105°C | Wurth Electronics 860040573004"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Radial Würth Elektronik"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/860040573004/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "860040573004"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9f07ae3-8fcb-4334-9e09-b958644f18c6")
+		)
+		(pin "1"
+			(uuid "ecfa74ae-7893-418c-9812-d050320eabef")
+		)
+		(instances
+			(project "caeluspcb"
+				(path "/c832c560-1f03-4511-a343-09d45200b709"
+					(reference "C3")
 					(unit 1)
 				)
 			)
